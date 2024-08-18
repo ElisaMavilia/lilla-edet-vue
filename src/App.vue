@@ -1,12 +1,13 @@
 <template>
-  <h1 class="text-center">
-    ciao!
-  </h1>
+ <HeaderComponent />
 </template>
 
 <script>
+import HeaderComponent from './components/HeaderComponent.vue';
   export default {
-    name: 'App'
+    name: 'App',
+    components: { 
+      HeaderComponent
   }
 </script>
 
